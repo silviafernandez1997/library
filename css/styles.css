@@ -1,0 +1,117 @@
+h1{
+    font-size: 30px;
+    margin-top: -8px;
+    padding: 50px;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+td {
+    padding: 1em;
+    border-bottom: 1px solid yellowgreen;
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titol{
+	background-color: grey;
+    border-radius: 5px;
+}
+
+.nav{
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin-top: -20px;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.nav a{
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: cursive;
+    color: black;
+    margin-right: 2em;
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+
+.imge{
+    margin-right: auto;
+    width: auto;
+    display: block;
+}
+
+.nav a:hover{
+    background-color: gray;
+}
+
+img{
+    display: block;
+    margin-right: 3em;
+    width: auto;
+}
+
+ul li{
+    text-decoration: none;
+    color: forestgreen;
+    list-style-type: hiragana;
+}
+
+ol li{
+    text-decoration: none;
+    color: forestgreen;
+    list-style-type: circle;
+}
+
+.insertForm{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insertForm input{
+	margin: 2em;
+}
+
+.insertForm input[type=submit]{
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 1em;
+}
+
+.conAside{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 10em;
+    justify-content: center;
+}
+
+.asideParticular {
+    background-color: gainsboro;
+	border: 0.5px solid black;
+    border-radius: 1em;
+    padding: 1.5em;
+    margin-right: 10em;
+}
+
+footer{
+    clear: both;
+    margin-top: 2em;
+    text-align: center;
+}
